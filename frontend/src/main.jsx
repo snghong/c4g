@@ -4,6 +4,11 @@ import "./index.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import SignIn from "./SignIn";
 import SignUp from "./SignUp";
+import Courses from "./Courses";
+import Events from "./Events";
+import Profile from "./Profile";
+import SocialFriends from "./SocialFriends";
+import SocialLeaderboard from "./SocialLeaderboard";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -12,6 +17,11 @@ root.render(
       <Routes>
         <Route path="/" element={<SignIn />} />
         <Route path="/signup" element={<SignUp />} />
+        <Route path="/courses" element={<Courses />} />
+        <Route path="/events" element={<Events />} />
+        <Route path="/profile" element={<Profile />} />
+        <Route path="/friends" element={<SocialFriends />} />
+        <Route path="/leaderboard" element={<SocialLeaderboard />} />
       </Routes>
     </Router>
   </React.StrictMode>
