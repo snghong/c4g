@@ -4,7 +4,7 @@ import { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import { pushStudentInfo } from "./lib/init-firebase";
-
+import NavBar from "./NavBar";
 function SignUp() {
   const [page, setPage] = useState(0);
   const [name, setName] = useState("");
@@ -16,6 +16,7 @@ function SignUp() {
 
   return (
     <>
+      <NavBar />
       {page === 0 ? (
         <Form className="sign-up-box">
           <h1 className="sign-up-title">New? Sign Up</h1>

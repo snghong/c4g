@@ -1,8 +1,11 @@
 import "./index.css";
-import { Link } from "react-router-dom";
-
+import SideBar from './SideBar'
+import NavBar from './NavBar'
 function Profile() {
-  return <div>Profile</div>;
-}
-
+  return (
+    <div>
+      <NavBar />
+      <SideBar />
+      
+    </div>);}
 export default Profile;

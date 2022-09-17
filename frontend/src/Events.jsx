@@ -1,8 +1,13 @@
 import "./index.css";
-import { Link } from "react-router-dom";
-
+import SideBar from './SideBar'
+import MyCalendar from './Calendar'
+import NavBar from "./NavBar";
 function Events() {
-  return <div>Events</div>;
-}
-
+  return (
+    <div>
+    <NavBar className = "flex" />
+    <SideBar />
+    <div class="calendar"><MyCalendar /></div>
+      
+    </div>);}
 export default Events;

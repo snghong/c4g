@@ -25,11 +25,15 @@ import {
 } from "https://www.gstatic.com/firebasejs/9.8.3/firebase-database.js";
 const db = getDatabase();
 
-export function pushStudentInfo(email, name, pass, sports, academics) {
-  set(ref(db, "users/student/" + email), {
-    name: name,
-    password: pass,
-    sports: sports,
-    academics: academics,
-  });
+export function pushStudentInfo(user, first, last, pass, sports, academics) {
+  if(user !== ""){
+    set(ref(db, "users/student/" + user), {
+      firstName: first,
+      lastName: last,
+      password: pass,
+      sports: sports,
+      academics: academics,
+    });
+  }
 }
+export default app;

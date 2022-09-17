@@ -1,3 +1,4 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
   font-size: 16px;
@@ -13,6 +14,37 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+ul
+{
+    list-style-type: none;
+}
+.btn-light{
+  --bs-btn-font-size:3rem !important;
+}
+li {
+  width: 10%;
+  height:auto;
+  
+
+}
+.calendar{
+  float:right;
+  width:90%;
+}
+.sidebar{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  
+}
+img{
+  max-width: 300%;
+  height: auto;
+}
+
+
 
 .sign-up-box {
   text-align: center;
@@ -54,6 +86,38 @@
   width: 327px;
 }
 
-.sign-up-option {
-  margin: 20px;
+.course-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.course {
+  border: 1px solid black;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.96), rgba(255, 255, 255, 0.96)), #000000;
+  border-radius: 25px;
+  width: 200px;
+  height: 150px;
+  border-radius: 8px;
+  margin-right: 40px;
+}
+
+.course-name {
+  text-align: center;
+}
+
+.hidden-course {
+ border: none !important;
+ background: none !important;
+}
+
+.course-icon {
+  text-align: center;
+  padding-top: 10px;
+}
+
+
+
+.course-and-boxes {
+  margin-top: 50px;
+  margin-left: 150px;
 }
