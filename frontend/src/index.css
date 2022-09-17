@@ -167,6 +167,87 @@ margin-left: 38%;
 .math-box{
   justify-content: center;
   align-items: center;
+
+.circle {
+  border: 1px solid black;
+  height: 180px;
+  justify-content: center;
+  border-radius: 90px;
+}
+
+.wrapper {
+  margin-left: 150px;
+}
+
+.profile {
+  text-align: center;
+  width: 180px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bar {
+  border: 1px solid black;
+  margin-top: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 320px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.profile-pic {
+  height: 180px;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.in-review {
+  display: flex;
+  flex-direction: row;
+  float: right;
+  align-items: center;
+}
+
+.status-button {
+  border: 5px solid orange;
+  height: 10px;
+  width: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.bottom-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.bottom-bar > div {
+  margin: 30px;
+}
+
+.mentor-profile-meetings {
+  margin-left: 50px;
+  border: 1px solid black;
+  border-radius: 10%;
+  padding: 10px;
+}
+
+.interests {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.interests > img {
+  height: 80px;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.progress-chart {
+  width: 320px;
 }
 
 /* Mobile optimizations */
