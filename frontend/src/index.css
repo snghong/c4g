@@ -25,6 +25,10 @@ li {
   width: 10%;
   height:auto;
 }
+.calendar{
+  float:right;
+  width:90%;
+}
 .sidebar{
     margin: 0;
     position: absolute;

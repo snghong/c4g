@@ -8,10 +8,11 @@ function SignIn() {
     
     <div>
           <NavBar />
+      <SideBar />
       Sign In
       
       
       <Link to="/signup">Sign Up</Link>
-      <SideBar />
+      
     </div>);}
 export default SignIn;
