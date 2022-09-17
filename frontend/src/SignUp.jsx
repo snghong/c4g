@@ -3,6 +3,7 @@ import React from "react";
 import { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
+import { pushStudentInfo } from "./lib/init-firebase";
 
 function SignUp() {
   const [page, setPage] = useState(0);
@@ -109,7 +110,14 @@ function SignUp() {
               Academics
             </Button>
           </div>
-          <Button variant="primary" type="submit" className="sign-up-button">
+          <Button
+            variant="primary"
+            type="submit"
+            className="sign-up-button"
+            onClick={() =>
+              pushStudentInfo(email, name, pass, sports, academics)
+            }
+          >
             Sign Up
           </Button>
         </div>
