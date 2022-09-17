@@ -26,6 +26,7 @@ ul
   
 }
 
+
 li {
   width: 10%;
   height:auto;
@@ -175,6 +176,7 @@ img{
 
 .grey-picture-button {
   opacity: .2;
+ 
 }.picture-button {
   justify-content: center;
   align-items: center;
@@ -182,6 +184,10 @@ img{
   gap: 8px;
   height: 100px;
   border-radius: 8px;
+}
+.grey-picture-button:hover{
+    opacity: .8 !important;
+
 }
 .math-box{
   justify-content: center;

@@ -108,7 +108,7 @@ function SignUp() {
               src={chess_img}
               title="Chess"
               className={`${
-                chess ? "" : "grey-picture-button"
+                chess ? "option" : "grey-picture-button"
               } picture-button sign-up-option`}
               onClick={() => setChess(!chess)}
             />
@@ -116,7 +116,7 @@ function SignUp() {
               src={basketball_img}
               title="Basketball"
               className={`${
-                basketball ? "" : "grey-picture-button"
+                basketball ? "option" : "grey-picture-button"
               } picture-button sign-up-option`}
               onClick={() => setBasketball(!basketball)}
             />
@@ -125,7 +125,7 @@ function SignUp() {
               src={dance_img}
               title="Dance"
               className={`${
-                dance ? "" : "grey-picture-button"
+                dance ? "option" : "grey-picture-button"
               } picture-button sign-up-option`}
               onClick={() => setDance(!dance)}
             />
@@ -133,7 +133,7 @@ function SignUp() {
               src={football_img}
               title="Football"
               className={`${
-                football ? "" : "grey-picture-button"
+                football ? "option" : "grey-picture-button"
               } picture-button sign-up-option`}
               onClick={() => setFootball(!football)}
             />
@@ -143,7 +143,7 @@ function SignUp() {
               src={instruments_img}
               title="Music"
               className={`${
-                instruments ? "" : "grey-picture-button"
+                instruments ? "option" : "grey-picture-button"
               } picture-button sign-up-option`}
               onClick={() => setInstruments(!instruments)}
             />
@@ -151,7 +151,7 @@ function SignUp() {
               src={karate_img}
               title="Karate"
               className={`${
-                karate ? "" : "grey-picture-button"
+                karate ? "option" : "grey-picture-button"
               } picture-button sign-up-option`}
               onClick={() => setKarate(!karate)}
             />
@@ -159,7 +159,7 @@ function SignUp() {
               src={math_img}
               title="Math"
               className={`${
-                math ? "" : "grey-picture-button"
+                math ? "option" : "grey-picture-button"
               } picture-button sign-up-option`}
               onClick={() => setMath(!math)}
             />
@@ -167,7 +167,7 @@ function SignUp() {
               src={science_img}
               title="Science"
               className={`${
-                science ? "" : "grey-picture-button"
+                science ? "option" : "grey-picture-button"
               } picture-button sign-up-option`}
               onClick={() => setScience(!science)}
             />
