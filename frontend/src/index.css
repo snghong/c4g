@@ -89,13 +89,6 @@ img{
 .course-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-}
-
-.rec-course-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
 }
 
 .course {
@@ -105,6 +98,7 @@ img{
   width: 200px;
   height: 150px;
   border-radius: 8px;
+  margin-right: 40px;
 }
 
 .course-name {
@@ -116,6 +110,14 @@ img{
  background: none !important;
 }
 
-.sign-up-option {
-  margin: 20px;
+.course-icon {
+  text-align: center;
+  padding-top: 10px;
+}
+
+
+
+.course-and-boxes {
+  margin-top: 50px;
+  margin-left: 150px;
 }
