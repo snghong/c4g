@@ -10,6 +10,7 @@ function Courses() {
           <h2>Recommended Courses</h2>
           <div className="course-container">
             {/* <h2>Courses</h2> */}
+            <a href = "/Math" style={{ textDecoration: 'none', color:"black" }}>
             <div className="course">
               <div class="course-icon">
                 <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg%22%3E">
@@ -20,8 +21,9 @@ function Courses() {
                 <path d="M50 8.33337V35.4167" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
               </div>
-              <div class="course-name">Math</div>
+              <div class="course-name"  >Math</div>
             </div>
+            </a>
             <div className="course">
               <div class="course-icon">
                 <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg%22%3E">
@@ -49,14 +51,14 @@ function Courses() {
                 <path d="M58.6667 44C58.3834 30.4042 53.1714 17.374 44 7.33337C34.8286 17.374 29.6166 30.4042 29.3333 44C29.6166 57.5959 34.8286 70.6261 44 80.6667C53.1714 70.6261 58.3834 57.5959 58.6667 44Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
               </div>
-              <div class="course-name">History</div>
+              <div class="course-name" style={{ textDecoration: 'none' }}>History</div>
             </div>
             <div className="course">
               <div class="course-icon">
                 <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg%22%3E">
                 <path d="M33.3333 12.5H8.33334V75H37.5C40.8152 75 43.9946 76.317 46.3388 78.6612C48.6831 81.0054 50 84.1848 50 87.5V29.1667C50 24.7464 48.2441 20.5072 45.1185 17.3816C41.9929 14.2559 37.7536 12.5 33.3333 12.5Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                 <path d="M66.6667 12.5H91.6667V75H62.5C59.1848 75 56.0054 76.317 53.6612 78.6612C51.317 81.0054 50 84.1848 50 87.5V29.1667C50 24.7464 51.7559 20.5072 54.8816 17.3816C58.0072 14.2559 62.2464 12.5 66.6667 12.5Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
+                </svg>    
               </div>
               <div class="course-name">English</div>
             </div>

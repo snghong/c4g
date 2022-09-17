@@ -106,10 +106,30 @@ img{
   margin-right: 40px;
 }
 
+.course-big{
+  border: 4px solid black;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.96), rgba(255, 255, 255, 0.96)), #000000;
+  border-radius: 250px;
+  width: 450px;
+  height: 375px;
+  border-radius: 20px;
+margin-left: 38%;
+}
+
 .course-name {
   text-align: center;
 }
+.course-name-big {
+  text-align: center;
+  font-size: 30px;
 
+}
+
+.math-links {
+  padding-left: 37rem;
+  font-size: 24px;
+
+}
 .hidden-course {
  border: none !important;
  background: none !important;
@@ -120,6 +140,11 @@ img{
   padding-top: 10px;
 }
 
+.course-icon-big {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
 .navbar-toggler-icon{
   background-image:none !important;
 }
@@ -139,6 +164,16 @@ img{
   height: 100px;
   border-radius: 8px;
 }
+.math-box{
+  justify-content: center;
+  align-items: center;
+}
+.circle {
+  border: 1px solid black;
+  height: 180px;
+  justify-content: center;
+  border-radius: 90px;
+}
 
 .wrapper {
   margin-left: 150px;
@@ -147,14 +182,8 @@ img{
 .profile {
   text-align: center;
   width: 180px;
-  margin-left: 35vw;
-}
-
-.circle {
-  border: 1px solid black;
-  height: 180px;
-  justify-content: center;
-  border-radius: 90px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .bar {
@@ -165,6 +194,12 @@ img{
   width: 320px;
   text-align: center;
   border-radius: 10px;
+}
+
+.profile-pic {
+  height: 180px;
+  border-radius: 50%;
+  margin: 10px;
 }
 
 .in-review {
@@ -185,7 +220,7 @@ img{
 .bottom-bar {
   display: flex;
   flex-direction: row;
-  margin-top: 40px;
+  justify-content: center;
 }
 .navbar-nav{
   position: absolute;
@@ -195,6 +230,32 @@ img{
 .progress-chart {
   margin-left: 100px;
   margin-left: 20vw;
+}
+.bottom-bar > div {
+  margin: 30px;
+}
+
+.mentor-profile-meetings {
+  margin-left: 50px;
+  border: 1px solid black;
+  border-radius: 10%;
+  padding: 10px;
+}
+
+.interests {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.interests > img {
+  height: 80px;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.progress-chart {
+  width: 320px;
 }
 
 /* Mobile optimizations */
@@ -223,9 +284,12 @@ img{
     margin-top:100px;
   }
   .progress-chart{
-    margin-left: -125px;
-    overflow-x: clip;
-    margin-top: 220px;
+    margin-left: -200px !important;
+    overflow-x: clip !important;
+    margin-top: 320px !important;
+    width:170% !important;
   }
-};
-
+  .course{
+    width:100px;
+  }
+}

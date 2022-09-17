@@ -9,13 +9,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@emotion/react": "^11.10.4",
     "@ericz1803/react-google-calendar": "^4.2.2",
     "bootstrap": "^5.2.1",
     "firebase": "^9.10.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.5.0",
     "react-dom": "^18.2.0",
+    "react-external-link": "^2.0.0",
     "react-router-dom": "^6.4.0"
   },
   "devDependencies": {
