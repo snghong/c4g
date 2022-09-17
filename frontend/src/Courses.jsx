@@ -10,8 +10,8 @@ function Courses() {
           <h2>Recommended Courses</h2>
           <div className="course-container">
             {/* <h2>Courses</h2> */}
-            <a href = "/Math" style={{ textDecoration: 'none', color:"black" }}>
             <div className="course math">
+            <a href = "/Math" style={{ textDecoration: 'none', color:"black" }}>
               <div class="course-icon">
                 <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg%22%3E">
                 <path d="M91.6667 35.4167L50 8.33337L8.33333 35.4167V64.5834L50 91.6667L91.6667 64.5834V35.4167Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -22,8 +22,8 @@ function Courses() {
                 </svg>
               </div>
               <div class="course-name"  >Math</div>
+              </a>
             </div>
-            </a>
             <div className="course science">
               <div class="course-icon">
                 <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg%22%3E">
