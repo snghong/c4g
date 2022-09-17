@@ -3,12 +3,16 @@ import React from "react";
 import { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
+import { pushStudentInfo } from "./lib/init-firebase";
 
 function SignUp() {
   const [page, setPage] = useState(0);
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [pass, setPass] = useState("");
+
+  const [sports, setSports] = useState(false);
+  const [academics, setAcademics] = useState(false);
 
   return (
     <>
@@ -82,8 +86,40 @@ function SignUp() {
           </svg>
         </Form>
       ) : (
-        <div>
+        <div className="sign-up-box">
           <h1 className="sign-up-title">What do you Jream about?</h1>
+          <div>
+            <Button
+              variant="primary"
+              type="submit"
+              className={`${
+                sports ? "sign-up-button" : "grey-sign-up-button"
+              } sign-up-option`}
+              onClick={() => setSports(!sports)}
+            >
+              Sports
+            </Button>
+            <Button
+              variant="primary"
+              type="submit"
+              className={`${
+                academics ? "sign-up-button" : "grey-sign-up-button"
+              } sign-up-option`}
+              onClick={() => setAcademics(!academics)}
+            >
+              Academics
+            </Button>
+          </div>
+          <Button
+            variant="primary"
+            type="submit"
+            className="sign-up-button"
+            onClick={() =>
+              pushStudentInfo(email, name, pass, sports, academics)
+            }
+          >
+            Sign Up
+          </Button>
         </div>
       )}
     </>
