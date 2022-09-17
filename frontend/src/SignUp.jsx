@@ -106,6 +106,7 @@ function SignUp() {
           <div>
             <img
               src={chess_img}
+              title="Chess"
               className={`${
                 chess ? "" : "grey-picture-button"
               } picture-button sign-up-option`}
@@ -113,6 +114,7 @@ function SignUp() {
             />
             <img
               src={basketball_img}
+              title="Basketball"
               className={`${
                 basketball ? "" : "grey-picture-button"
               } picture-button sign-up-option`}
@@ -121,6 +123,7 @@ function SignUp() {
           
             <img
               src={dance_img}
+              title="Dance"
               className={`${
                 dance ? "" : "grey-picture-button"
               } picture-button sign-up-option`}
@@ -128,6 +131,7 @@ function SignUp() {
             />
             <img
               src={football_img}
+              title="Football"
               className={`${
                 football ? "" : "grey-picture-button"
               } picture-button sign-up-option`}
@@ -137,6 +141,7 @@ function SignUp() {
           <div>
             <img
               src={instruments_img}
+              title="Music"
               className={`${
                 instruments ? "" : "grey-picture-button"
               } picture-button sign-up-option`}
@@ -144,6 +149,7 @@ function SignUp() {
             />
             <img
               src={karate_img}
+              title="Karate"
               className={`${
                 karate ? "" : "grey-picture-button"
               } picture-button sign-up-option`}
@@ -151,6 +157,7 @@ function SignUp() {
             />
             <img
               src={math_img}
+              title="Math"
               className={`${
                 math ? "" : "grey-picture-button"
               } picture-button sign-up-option`}
@@ -158,6 +165,7 @@ function SignUp() {
             />
             <img
               src={science_img}
+              title="Science"
               className={`${
                 science ? "" : "grey-picture-button"
               } picture-button sign-up-option`}
