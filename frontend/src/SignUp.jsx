@@ -3,6 +3,14 @@ import React from "react";
 import { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
+import basketball_img from "./Images/Basketball1.jpeg";
+import chess_img from "./Images/Chess1.jpeg";
+import dance_img from "./Images/Dance.jpeg";
+import football_img from "./Images/Football1.jpeg";
+import instruments_img from "./Images/Instruments.jpeg";
+import karate_img from "./Images/karate.jpeg";
+import math_img from "./Images/Math1.jpeg";
+import science_img from "./Images/Science1.jpeg";
 import { pushStudentInfo } from "./lib/init-firebase";
 
 function SignUp() {
@@ -11,8 +19,15 @@ function SignUp() {
   const [email, setEmail] = useState("");
   const [pass, setPass] = useState("");
 
-  const [sports, setSports] = useState(false);
-  const [academics, setAcademics] = useState(false);
+  const [basketball, setBasketball] = useState(false);
+  const [dance, setDance] = useState(false);
+  const [chess, setChess] = useState(false);
+  const [football, setFootball] = useState(false);
+  const [instruments, setInstruments] = useState(false);
+  const [karate, setKarate] = useState(false);
+  const [math, setMath] = useState(false);
+  const [science, setScience] = useState(false);
+
 
   return (
     <>
@@ -89,33 +104,72 @@ function SignUp() {
         <div className="sign-up-box">
           <h1 className="sign-up-title">What do you Jream about?</h1>
           <div>
-            <Button
-              variant="primary"
-              type="submit"
+            <img
+              src={chess_img}
               className={`${
-                sports ? "sign-up-button" : "grey-sign-up-button"
-              } sign-up-option`}
-              onClick={() => setSports(!sports)}
-            >
-              Sports
-            </Button>
-            <Button
-              variant="primary"
-              type="submit"
+                chess ? "" : "grey-picture-button"
+              } picture-button sign-up-option`}
+              onClick={() => setChess(!chess)}
+            />
+            <img
+              src={basketball_img}
               className={`${
-                academics ? "sign-up-button" : "grey-sign-up-button"
-              } sign-up-option`}
-              onClick={() => setAcademics(!academics)}
-            >
-              Academics
-            </Button>
+                basketball ? "" : "grey-picture-button"
+              } picture-button sign-up-option`}
+              onClick={() => setBasketball(!basketball)}
+            />
+          
+            <img
+              src={dance_img}
+              className={`${
+                dance ? "" : "grey-picture-button"
+              } picture-button sign-up-option`}
+              onClick={() => setDance(!dance)}
+            />
+            <img
+              src={football_img}
+              className={`${
+                football ? "" : "grey-picture-button"
+              } picture-button sign-up-option`}
+              onClick={() => setFootball(!football)}
+            />
+            </div>
+          <div>
+            <img
+              src={instruments_img}
+              className={`${
+                instruments ? "" : "grey-picture-button"
+              } picture-button sign-up-option`}
+              onClick={() => setInstruments(!instruments)}
+            />
+            <img
+              src={karate_img}
+              className={`${
+                karate ? "" : "grey-picture-button"
+              } picture-button sign-up-option`}
+              onClick={() => setKarate(!karate)}
+            />
+            <img
+              src={math_img}
+              className={`${
+                math ? "" : "grey-picture-button"
+              } picture-button sign-up-option`}
+              onClick={() => setMath(!math)}
+            />
+            <img
+              src={science_img}
+              className={`${
+                science ? "" : "grey-picture-button"
+              } picture-button sign-up-option`}
+              onClick={() => setScience(!science)}
+            />
           </div>
           <Button
             variant="primary"
             type="submit"
             className="sign-up-button"
             onClick={() =>
-              pushStudentInfo(email, name, pass, sports, academics)
+              pushStudentInfo(email, name, pass, basketball, football, instruments, karate, math, science)
             }
           >
             Sign Up

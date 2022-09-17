@@ -25,11 +25,15 @@ import {
 } from "https://www.gstatic.com/firebasejs/9.8.3/firebase-database.js";
 const db = getDatabase();
 
-export function pushStudentInfo(email, name, pass, sports, academics) {
+export function pushStudentInfo(email, name, pass, basketball, football, instruments, karate, math, science) {
   set(ref(db, "users/student/" + email), {
     name: name,
     password: pass,
-    sports: sports,
-    academics: academics,
+    basketball: basketball,
+    football: football,
+    instruments: instruments,
+    karate: karate,
+    math: math,
+    science: science
   });
 }

@@ -57,3 +57,13 @@
 .sign-up-option {
   margin: 20px;
 }
+.grey-picture-button {
+  opacity: .2;
+}.picture-button {
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+  gap: 8px;
+  height: 100px;
+  border-radius: 8px;
+}
