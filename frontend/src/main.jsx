@@ -12,6 +12,7 @@ import Profile from "./Profile";
 import SocialFriends from "./SocialFriends";
 import SocialLeaderboard from "./SocialLeaderboard";
 import Math from "./Math";
+import MentorProfile from "./MentorProfile"
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -27,6 +28,7 @@ root.render(
         <Route path="/friends" element={<SocialFriends />} />
         <Route path="/leaderboard" element={<SocialLeaderboard />} />
         <Route path="/math" element={<Math />} />
+        <Route path="/mentor" element={<MentorProfile />} />
       </Routes>
     </Router>
   </React.StrictMode>
