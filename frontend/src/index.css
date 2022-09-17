@@ -42,3 +42,36 @@
   margin-right: auto;
   width: 327px;
 }
+
+.course-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.rec-course-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.course {
+  border: 1px solid black;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.96), rgba(255, 255, 255, 0.96)), #000000;
+  border-radius: 25px;
+  width: 200px;
+  height: 150px;
+  border-radius: 8px;
+}
+
+.course-name {
+  text-align: center;
+}
+
+.hidden-course {
+ border: none !important;
+ background: none !important;
+}
+
+
+
