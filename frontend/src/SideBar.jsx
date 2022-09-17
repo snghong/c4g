@@ -4,9 +4,6 @@ export default class SideBar extends Component {
   render() {
     return (<>
         <ul className="sidebar">
-        
-        
-
             <li><Button variant="light" href="/Courses">
             <i class="bi bi-compass"></i>
             </Button> </li>
