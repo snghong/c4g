@@ -5,7 +5,7 @@ import NavBar from "./NavBar";
 function Events() {
   return (
     <div>
-    <NavBar />
+    <NavBar className = "flex" />
     <SideBar />
     <div class="calendar"><MyCalendar /></div>
       
