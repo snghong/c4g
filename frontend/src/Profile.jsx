@@ -1,10 +1,12 @@
 import "./index.css";
-import SideBar from './SideBar';
+
 import { pullStudentFirstName } from "./lib/init-firebase";
 import { pushFirstName } from "./lib/init-firebase";
 import { pullStudentLastName } from "./lib/init-firebase";
 import { pushLastName } from "./lib/init-firebase";
 import { useEffect } from "react";
+import SideBar from './SideBar'
+import NavBar from './NavBar'
 
 function Profile() {
   //const user = localStorage.getItem("user");
@@ -26,6 +28,8 @@ function Profile() {
   console.log(firstName + " " + lastName);
   return (
     <div>
+      <NavBar />
+      <SideBar />
     <div class="profile">
       <h2>{user}</h2>
       <div class="circle">
@@ -34,7 +38,7 @@ function Profile() {
         <path d="M12 11C14.2091 11 16 9.20914 16 7C16 4.79086 14.2091 3 12 3C9.79086 3 8 4.79086 8 7C8 9.20914 9.79086 11 12 11Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
         </svg>
       </div>
-      
+     
     </div>
     <h3>Welcome {firstName} {lastName}</h3>
     <div class="bottom-bar">

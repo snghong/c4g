@@ -18,8 +18,14 @@ function SignIn() {
     navigate("/signup");
   }
 
+  function handleSignIn() { 
+      localStorage.setItem("email", email);   
+      navigate("/profile");
+    }
+
   return (
     <>
+      <NavBar />
       <Form className="sign-up-box">
         <h1 className="sign-up-title">Sign In</h1>
 
@@ -46,7 +52,7 @@ function SignIn() {
           variant="primary"
           type="submit"
           className="sign-up-button"
-          onClick={handleSubmit}
+          onClick={handleSignIn}
         >
           Sign In
         </Button>

@@ -25,15 +25,21 @@ import {
 } from "https://www.gstatic.com/firebasejs/9.8.3/firebase-database.js";
 const db = getDatabase();
 
-export function pushStudentInfo(user, first, last, pass, DOB, academics) {
-  set(ref(db, "users/student/" + user), {
-    firstName: first,
-    lastName: last,
-    password: pass,
-    DOB: DOB,
-    academics: academics,
-  });
+
+export function pushStudentInfo(user, first, last, pass, sports, academics) {
+  if(user !== ""){
+    set(ref(db, "users/student/" + user), {
+      firstName: first,
+      lastName: last,
+      password: pass,
+      sports: sports,
+      academics: academics,
+    });
+  }
 }
+export default app;
+
+
 var firstname;
 var lastname;
 
@@ -72,3 +78,4 @@ export function pullStudentLastName(user) {
 export function pushLastName() {
   return lastname;
 }
+

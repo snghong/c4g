@@ -4,14 +4,14 @@ export default class SideBar extends Component {
   render() {
     return (<>
         <ul className="sidebar align-middle">
-            <li><Button variant="light" href="/Courses">
-            <i class="bi bi-compass"></i>
+            <li class = "btn-big" ><Button class = "btn-big"  variant="light" href="/Courses">
+            <i class="bi bi-compass btn-big"></i>
             </Button> </li>
-            <li><Button variant="light" href="/Profile">
-            <i class="bi bi-file-person"></i>
+            <li><Button class = "btn-big" variant="light" href="/Profile">
+            <i class="bi bi-file-person btn-big"></i>
             </Button> </li>
-            <li><Button variant="light" href="/Social"><i class="bi bi-people"></i></Button> </li>
-            <li><Button variant="light" href="/Events"><i class="bi bi-calendar2"></i></Button></li>
+            <li><Button class = "btn-big" variant="light" href="/Social"><i class="bi bi-trophy"></i></Button> </li>
+            <li><Button class = "btn-big" variant="light" href="/Events"><i class="bi bi-calendar2 btn-big"></i></Button></li>
             
             
         </ul>
