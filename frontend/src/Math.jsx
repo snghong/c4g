@@ -23,16 +23,16 @@ function Math() {
             </div>
             <div>
             </div>
-            <div  class = "redirects">
-            <ul>
+            <div >
+            <ul class = "math-links">
               <li>
-              <p><a href = "https://www.khanacademy.org/"> - Khan Accademy </a> </p>
+              <p><a href = "https://www.khanacademy.org/">Khan Accademy </a> </p>
               </li>
               <li>
-              <p><a href = "https://www.ixl.com/">- IXL Learning</a></p>
+              <p><a href = "https://www.ixl.com/">IXL Learning</a></p>
               </li>
               <li>
-             <p><a href = "https://www.mathtrainer.io/">- Math Trainer</a> </p>
+             <p><a href = "https://www.mathtrainer.io/">Math Trainer</a> </p>
               </li>
             </ul>
             </div>
