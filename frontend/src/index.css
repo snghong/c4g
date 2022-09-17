@@ -33,5 +33,9 @@ li {
     transform: translateY(-50%);
   
 }
+img{
+  max-width: 300%;
+  height: auto;
+}
 
 
