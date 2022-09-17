@@ -26,13 +26,17 @@ import {
 const db = getDatabase();
 
 var test = 2;
+var score;
 export function getDemoStudentScore() {
   get(child(ref(db), 'users/student/ryanreynolds/score')).then((snapshot) => {
-    var score = snapshot.val();
+    score = snapshot.val();
     return score;
   }
   )
 }
 
+export function getStudentScore(){
+  return score;
+}
 
 export default app;

@@ -53,7 +53,7 @@ img{
 
 .sign-up-box {
   text-align: center;
-  margin-top: 60px;
+  margin-top: 18%;
 }
 
 .sign-up.sign-up-title {
@@ -187,11 +187,14 @@ img{
   flex-direction: row;
   margin-top: 40px;
 }
-
+.navbar-nav{
+  position: absolute;
+  margin-top: 200px;
+}
 
 .progress-chart {
   margin-left: 100px;
-  margin-left: 30vw;
+  margin-left: 20vw;
 }
 
 /* Mobile optimizations */
@@ -203,6 +206,26 @@ img{
   }
   .board{
     width:40% !important;
+  }
+  .sidebar{
+    top:46% !important;
+  }
+  .course-and-boxes{
+    overflow-x: scroll !important;
+  }
+  .bar{
+    width:190% !important;
+  }
+  .profile{
+    display:none;
+  }
+  .bottom-bar{
+    margin-top:100px;
+  }
+  .progress-chart{
+    margin-left: -125px;
+    overflow-x: clip;
+    margin-top: 220px;
   }
 };
 

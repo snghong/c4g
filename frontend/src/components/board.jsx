@@ -1,10 +1,14 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { Link } from "react-router-dom"
-import { getDemoStudentScore } from "./init-firebase.jsx";
-
+import { getStudentScore, getDemoStudentScore } from "./init-firebase.jsx";
 
 export default function Board() {
     const [state, setState] = useState(0);
+    useEffect(() => {
+        getDemoStudentScore();
+        const demoScore = getStudentScore();
+    });
+    const demoScore = getStudentScore();
     function Profiles() {
         if (state === 0) { // All Time
             return (<div id="profile">
@@ -38,7 +42,7 @@ export default function Board() {
     )
 }
 
-var demoScore = getDemoStudentScore();
+
 function Item(data) {
     return (
         <div className="flex">
@@ -51,7 +55,7 @@ function Item(data) {
                 </div>
             </div>
             <div className="item">
-                <span>{typeof demoScore}</span>
+                <span>199</span>
             </div>
         </div>
     )
