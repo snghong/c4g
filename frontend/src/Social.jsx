@@ -1,10 +1,11 @@
 import "./index.css";
 import SideBar from './SideBar'
-function Profile() {
+function Social() {
   return (
     <div>
+      Chat here
     <div><SideBar /></div>
-    <span>Profile</span>
+    <span>Social</span>
       
     </div>);}
-export default Profile;
+export default Social;
