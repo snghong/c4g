@@ -13,7 +13,7 @@ function SignIn() {
 
   return (
     <>
-  
+        <NavBar />
         <Form className="sign-up-box">
           <h1 className="sign-up-title">Sign In</h1>
           
@@ -37,7 +37,7 @@ function SignIn() {
             />
           </Form.Group>
           <Button variant="primary" type="submit" className="sign-up-button">
-            Sign In
+            <Link to="/Courses"  style={{ textDecoration: 'none' }}>Sign in</Link>
           </Button>
         </Form>
           <center><Link to="/signup">Not a Jreamer? Sign up!</Link> </center>

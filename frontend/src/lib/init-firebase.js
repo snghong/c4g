@@ -33,3 +33,4 @@ export function pushStudentInfo(email, name, pass, sports, academics) {
     academics: academics,
   });
 }
+export default app;

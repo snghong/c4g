@@ -1,15 +1,14 @@
 import "./index.css";
 import SideBar from './SideBar'
+import NavBar from "./NavBar"
 function Courses() {
   return (
     <div>
-      <head>
-        <link rel="stylesheet" 
-            href= "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"></link>
-      </head>
-      <body>
-        <h2>Courses</h2>
+        <NavBar />
+        <SideBar />
+          <div className = "float-right">
           <div className="course-container">
+            {/* <h2>Courses</h2> */}
             <div className="course">
               <div>
 
@@ -29,8 +28,9 @@ function Courses() {
             <div className="course hidden-course">
             </div>
           </div>
-        <h2>Recommended Courses</h2>
+          
           <div className="rec-course-container">
+            <h2>Recommended Courses</h2>
             <div className="course">
               History
             </div>
@@ -61,8 +61,7 @@ function Courses() {
           </div>
         </center>
       */}
-      </body>
-      
+    </div>
     </div>
   );
 }

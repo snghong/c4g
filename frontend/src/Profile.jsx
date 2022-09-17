@@ -1,10 +1,11 @@
 import "./index.css";
 import SideBar from './SideBar'
+import NavBar from './NavBar'
 function Profile() {
   return (
     <div>
-    <div><SideBar /></div>
-    <span>Profile</span>
+      <NavBar />
+      <SideBar />
       
     </div>);}
 export default Profile;

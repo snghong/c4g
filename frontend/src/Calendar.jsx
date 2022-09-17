@@ -7,14 +7,14 @@ import React from "react";
 import Calendar from "@ericz1803/react-google-calendar";
 
 let calendars = [
-  { calendarId: "https://calendar.google.com/calendar/embed?src=snghong12345%40gmail.com&ctz=America%2FNew_York" },
+  { calendarId: "c25naG9uZzEyMzQ1QGdtYWlsLmNvbQ" }
 ];
 
 export default class MyCalendar extends React.Component {
   render() {
     return (
       <div>
-        <Calendar apiKey={""} calendars={calendars} />
+        <Calendar apiKey={"AIzaSyCV-FnL_jamglJRoC8Y5EHcGRsKy9hN6Mw"} calendars={calendars} />
       </div>
     );
   }

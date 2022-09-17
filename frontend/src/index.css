@@ -14,16 +14,18 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
-.btn{
-  --bs-btn-font-size:3rem !important;
-}
 ul
 {
     list-style-type: none;
 }
+.btn-light{
+  --bs-btn-font-size:3rem !important;
+}
 li {
   width: 10%;
   height:auto;
+  
+
 }
 .calendar{
   float:right;
