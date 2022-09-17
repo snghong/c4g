@@ -21,6 +21,7 @@ root.render(
         <Route path="/signup" element={<SignUp />} />
         <Route path="/courses" element={<Courses />} />
         <Route path="/events" element={<Events />} />
+        <Route path="/social" element={<Social />} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/friends" element={<SocialFriends />} />
         <Route path="/leaderboard" element={<SocialLeaderboard />} />
