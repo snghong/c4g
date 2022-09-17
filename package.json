@@ -1,7 +1,16 @@
 {
-  
   "dependencies": {
     "firebase": "^9.10.0",
     "react-firebase-hooks": "^5.0.3"
+  },
+  "homepage": "https://snghong.github.io/c4g",
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build"
   }
 }
