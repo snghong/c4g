@@ -25,7 +25,7 @@ function Math() {
             <div >
             <ul class = "math-links">
               <li>
-              <p><a href = "https://www.khanacademy.org/">Khan Accademy </a> </p>
+              <p><a href = "https://www.khanacademy.org/">Khan Academy </a> </p>
               </li>
               <li>
               <p><a href = "https://www.ixl.com/">IXL Learning</a></p>
