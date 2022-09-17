@@ -6,10 +6,11 @@ function SignIn() {
     
     
     <div>
+      <SideBar />
       Sign In
       
       
       <Link to="/signup">Sign Up</Link>
-      <SideBar />
+      
     </div>);}
 export default SignIn;
