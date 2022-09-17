@@ -10,7 +10,6 @@ import Events from "./Events";
 import Profile from "./Profile";
 import SocialFriends from "./SocialFriends";
 import SocialLeaderboard from "./SocialLeaderboard";
-
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
