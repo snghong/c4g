@@ -36,6 +36,17 @@
   border-radius: 8px;
 }
 
+.grey-sign-up-button {
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+  gap: 8px;
+  width: 327px;
+  height: 48px;
+  background: grey !important;
+  border-radius: 8px;
+}
+
 .sign-up-input {
   text-align: left;
   margin-left: auto;
