@@ -27,9 +27,9 @@ export default function Board() {
             <h1 className='leaderboard'>Leaderboard</h1>
 
             <div className="duration">
-                <button data-id='7' onClick={() => setState(2)}>7 Days</button>
-                <button data-id='30' onClick={() => setState(1)}>30 Days</button>
-                <button data-id='0' onClick={() => setState(0)}>All-Time</button>
+                <button id="week" data-id='7' onClick={() => setState(2)}>7 Days</button>
+                <button id="month" data-id='30' onClick={() => setState(1)}>30 Days</button>
+                <button id="all" data-id='0' onClick={() => setState(0)}>All-Time</button>
 
             </div>
 

@@ -106,6 +106,26 @@ img{
   margin-right: 40px;
 }
 
+.math {
+  background: #ff8989
+}
+
+.science {
+  background: #b8e4ff;
+}
+
+.history {
+  background: #ccb4ee;
+}
+
+.english {
+  background: #fff1a4;
+}
+
+.foreign {
+  background: #b6e8a4;
+}
+
 .course-name {
   text-align: center;
 }

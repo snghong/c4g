@@ -35,7 +35,6 @@
     border: 1px solid var(--color-light);
     padding: .5em 2em;
     border-radius: 50px;
-    background-color: transparent;
     cursor: pointer;
 }
 
@@ -79,4 +78,28 @@
 
 .text-dark {
     color: var(--color-dark);
+}
+
+#week {
+    background-color: #b8e4ff;
+}
+
+#month {
+    background-color: #b6e8a4;
+}
+
+#all-time {
+    background-color: #fff1a4;
+}
+
+#week:hover {
+    background-color: black;
+}
+
+#month:hover {
+    background-color: black;
+}
+
+#all-time:hover {
+    background: black;
 }

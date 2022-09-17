@@ -10,7 +10,7 @@ function Courses() {
           <h2>Recommended Courses</h2>
           <div className="course-container">
             {/* <h2>Courses</h2> */}
-            <div className="course">
+            <div className="course math">
               <div class="course-icon">
                 <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg%22%3E">
                 <path d="M91.6667 35.4167L50 8.33337L8.33333 35.4167V64.5834L50 91.6667L91.6667 64.5834V35.4167Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -22,7 +22,7 @@ function Courses() {
               </div>
               <div class="course-name">Math</div>
             </div>
-            <div className="course">
+            <div className="course science">
               <div class="course-icon">
                 <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg%22%3E">
                 <path d="M75.2083 47L47.5 74.4167L59.375 86.1667L87.0833 58.75L75.2083 47Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -41,7 +41,7 @@ function Courses() {
         <div class="course-and-boxes">
           <h2>All Courses</h2>
           <div className="course-container">
-            <div className="course">
+            <div className="course history">
               <div class="course-icon">
                 <svg width="100" height="100" viewBox="-5 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg%22%3E">
                 <path d="M44 80.6667C64.2504 80.6667 80.6667 64.2505 80.6667 44C80.6667 23.7496 64.2504 7.33337 44 7.33337C23.7496 7.33337 7.33333 23.7496 7.33333 44C7.33333 64.2505 23.7496 80.6667 44 80.6667Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -51,7 +51,7 @@ function Courses() {
               </div>
               <div class="course-name">History</div>
             </div>
-            <div className="course">
+            <div className="course english">
               <div class="course-icon">
                 <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg%22%3E">
                 <path d="M33.3333 12.5H8.33334V75H37.5C40.8152 75 43.9946 76.317 46.3388 78.6612C48.6831 81.0054 50 84.1848 50 87.5V29.1667C50 24.7464 48.2441 20.5072 45.1185 17.3816C41.9929 14.2559 37.7536 12.5 33.3333 12.5Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -60,7 +60,7 @@ function Courses() {
               </div>
               <div class="course-name">English</div>
             </div>
-            <div className="course">
+            <div className="course foreign">
               <div class="course-icon">
                 <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg%22%3E">
                 <path d="M41.1612 6.57538C43.5054 4.60625 46.6848 3.5 50 3.5C53.3152 3.5 56.4946 4.60625 58.8388 6.57538C61.183 8.54451 62.5 11.2152 62.5 14V42C62.5 44.7848 61.183 47.4555 58.8388 49.4246C56.4946 51.3938 53.3152 52.5 50 52.5C46.6848 52.5 43.5054 51.3938 41.1612 49.4246C38.817 47.4555 37.5 44.7848 37.5 42V14C37.5 11.2152 38.817 8.54451 41.1612 6.57538Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
