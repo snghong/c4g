@@ -51,7 +51,7 @@ function Item(data) {
                 </div>
             </div>
             <div className="item">
-                <span>{typeof demoScore}</span>
+                <span>172</span>
             </div>
         </div>
     )
