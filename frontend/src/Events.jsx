@@ -1,8 +1,11 @@
 import "./index.css";
-import { Link } from "react-router-dom";
-
+import SideBar from './SideBar'
+import MyCalendar from './Calendar'
 function Events() {
-  return <div>Events</div>;
-}
-
+  return (
+    <div>
+    <div><SideBar /></div>
+    <div class="calendar"><MyCalendar /></div>
+      
+    </div>);}
 export default Events;
