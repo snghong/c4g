@@ -7,7 +7,7 @@ function Courses() {
       <NavBar />
       <SideBar />
         <div class="course-and-boxes float-right">
-          <h2>Courses</h2>
+          <h2>Recommended Courses</h2>
           <div className="course-container">
             {/* <h2>Courses</h2> */}
             <div className="course">
@@ -39,7 +39,7 @@ function Courses() {
         </div>
 
         <div class="course-and-boxes">
-          <h2>Recommended Courses</h2>
+          <h2>All Courses</h2>
           <div className="course-container">
             <div className="course">
               <div class="course-icon">
