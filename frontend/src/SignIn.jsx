@@ -7,7 +7,7 @@ function SignIn() {
   return (
     
     <div>
-          <NavBar />
+      <NavBar />
       <SideBar />
       Sign In
       
