@@ -10,7 +10,7 @@ export default class SideBar extends Component {
             <li><Button class = "btn-big" variant="light" href="/Profile">
             <i class="bi bi-file-person btn-big"></i>
             </Button> </li>
-            <li><Button class = "btn-big" variant="light" href="/Social"><i class="bi bi-people btn-big"></i></Button> </li>
+            <li><Button class = "btn-big" variant="light" href="/Social"><i class="bi bi-trophy"></i></Button> </li>
             <li><Button class = "btn-big" variant="light" href="/Events"><i class="bi bi-calendar2 btn-big"></i></Button></li>
             
             
