@@ -21,9 +21,10 @@ import {
   ref,
   set,
   child,
-  get,
+  get
 } from "https://www.gstatic.com/firebasejs/9.8.3/firebase-database.js";
 const db = getDatabase();
+
 
 export function pushStudentInfo(user, first, last, pass, sports, academics) {
   if(user !== ""){
@@ -37,3 +38,44 @@ export function pushStudentInfo(user, first, last, pass, sports, academics) {
   }
 }
 export default app;
+
+
+var firstname;
+var lastname;
+
+export function pullStudentFirstName(user) {
+  get(child(ref(db), `users/student/` + user + '/firstName')).then((snapshot) => {
+      if (snapshot.exists()) {
+          console.log(snapshot.val());
+          firstname = snapshot.val();
+          return firstname;
+      } else {
+          console.log("No data available for " + user);
+      }
+  }).catch((error) => {
+      console.error(error);
+  });
+}
+
+export function pushFirstName() {
+  return firstname;
+}
+
+export function pullStudentLastName(user) {
+  get(child(ref(db), `users/student/` + user + '/lastName')).then((snapshot) => {
+      if (snapshot.exists()) {
+          console.log(snapshot.val());
+          lastname = snapshot.val();
+          return lastname;
+      } else {
+          console.log("No data available for " + user);
+      }
+  }).catch((error) => {
+      console.error(error);
+  });
+}
+
+export function pushLastName() {
+  return lastname;
+}
+

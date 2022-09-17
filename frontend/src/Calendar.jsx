@@ -4,7 +4,7 @@ import React from "react";
 // npm install --save react react-dom @emotion/react
 // npm install --save @ericz1803/react-google-calendar
 //
-import Calendar from "@ericz1803/react-google-calendar";
+// import Calendar from "@ericz1803/react-google-calendar";
 
 let calendars = [
   { calendarId: "c25naG9uZzEyMzQ1QGdtYWlsLmNvbQ" }

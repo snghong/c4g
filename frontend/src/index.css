@@ -141,6 +141,39 @@ img{
 }
 
 
+.profile {
+  text-align: center;
+  width: 180px;
+  margin-left: 35vw;
+}
+
+.circle {
+  border: 1px solid black;
+  height: 180px;
+  justify-content: center;
+  border-radius: 90px;
+}
+
+svg {
+  margin-top: 10px;
+}
+
+.bar {
+  border: 1px solid black;
+  margin-top: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 320px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.bottom-bar {
+  display: flex;
+  flex-direction: row;
+
+}
+
 /* Mobile optimizations */
 @media (max-width: 580px) { 
   .btn-light{
@@ -152,3 +185,4 @@ img{
     width:40% !important;
   }
 };
+

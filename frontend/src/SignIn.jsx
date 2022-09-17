@@ -14,7 +14,7 @@ function SignIn() {
   const [pass, setPass] = useState("");
 
   function handleSubmit() {
-    localStorage.setItem("email", email);
+    localStorage.setItem("user", email);
     navigate("/signup");
   }
 
